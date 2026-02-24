@@ -1,0 +1,13 @@
+{
+  "name": "discord-join-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that logs new member joins and forwards details to a personal server via webhook.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  }
+}
